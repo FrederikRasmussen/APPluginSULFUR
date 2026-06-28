@@ -82,7 +82,6 @@ public class Update
         foreach (var notification in toRemove)
         {
             ActivePickupNotifications.Remove(notification);
-            Object.Destroy(notification);
             Plugin.Logger.LogInfo("Removed notif");
         }
     }
