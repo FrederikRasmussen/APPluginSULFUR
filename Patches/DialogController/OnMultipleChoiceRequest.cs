@@ -19,6 +19,8 @@ public class OnMultipleChoiceRequest
         if (Plugin.Client.Connected()) return;
         LocalizationManager.TryGetTranslation("UnitNames/Amulet", out var translatedAmuletName);
         if (__instance.CurrentSpeakable.ActorName != translatedAmuletName) return;
+        Plugin.Logger.LogInfo("Achievement popup!");
+        AchievementUIManager.Instance.TestAchievementPopup(AchievementManager.Instance.AllAchievements[0]);
         foreach (var button in __instance.playerDialogButtons)
         {
             var option = button.GetComponent<DialogOption>();

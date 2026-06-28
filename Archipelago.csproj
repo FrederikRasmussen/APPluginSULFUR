@@ -39,6 +39,12 @@
     <Folder Include="StateHelpers\" />
   </ItemGroup>
   
+  <ItemGroup>
+    <Reference Include="SULFUR Native UI Lib">
+      <HintPath>..\..\SULFURNativeUILib\SULFUR Native UI Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="PowerShell cp .\bin\Debug\netstandard2.1\Archipelago.dll ..\Archipelago.dll" />
   </Target>

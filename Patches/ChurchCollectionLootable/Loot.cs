@@ -2,6 +2,7 @@
 using Archipelago.Archipelago;
 using Archipelago.Helpers;
 using HarmonyLib;
+using ParadoxNotion;
 using PerfectRandom.Sulfur.Core;
 using PerfectRandom.Sulfur.Core.Items;
 using PerfectRandom.Sulfur.Core.LevelGeneration;
@@ -15,16 +16,21 @@ public class Loot
 {
     public static void Prefix(ChurchCollectionLootable __instance)
     {
+        Plugin.Logger.LogInfo("Looking for playerHUDs");
+        foreach (var playerHUD in PlayerHUD.instances)
+        {
+            Plugin.Logger.LogInfo("Found one hud");
+            Plugin.Logger.LogInfo(playerHUD.GetName());
+            Plugin.Logger.LogInfo(playerHUD.pickupNotificationRoot.GetName());
+        }
+        Plugin.Logger.LogInfo("Found all playerHUDs");
+        
         __instance.totalWorth = LootManager.Instance.GetChurchCollectionAmount();
         __instance.moneyToSpawn = LootManager.Instance.GetMoneyItemsForAmount(__instance.totalWorth, shuffle: true);
-        if (Plugin.Client.State.WaitingItems.Count <= 0) return;
+        if (Plugin.Client.State.WaitingItems.Count <= 0 && Plugin.Client.State.UnlockedSulf <= 0) return;
         __instance.hasContents = true;
+        if (Plugin.Client.State.WaitingItems.Count <= 0) return;
         __instance.StartCoroutine(LootSpawnRoutine(__instance.lootSpawnTransform, __instance));
-    }
-
-    public static void Postfix()
-    {
-        Plugin.Client.State.ResetSulf();
     }
     
     private static IEnumerator LootSpawnRoutine(Transform transformForSpawning, ChurchCollectionLootable __instance)

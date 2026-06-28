@@ -9,6 +9,8 @@ using Archipelago.MultiClient.Net.MessageLog.Messages;
 using BepInEx;
 using Pathfinding.Graphs.Grid.Rules;
 using PerfectRandom.Sulfur.Core;
+using PerfectRandom.Sulfur.Core.DataStorage;
+using PerfectRandom.Sulfur.Core.LevelGeneration;
 
 namespace Archipelago.Archipelago;
 
@@ -25,6 +27,7 @@ public class Client
 
     public GameState State { get; private set; }
     public bool NewFileRequired { get; set; } = false;
+    public Queue<LogMessage> LogMessages { get; } = new();
 
     public Client(Config config)
     {
@@ -61,7 +64,8 @@ public class Client
 
     private void OnMessageReceived(LogMessage message)
     {
-        Plugin.Logger.LogInfo(message.ToString());
+        Plugin.Logger.LogInfo("added to queue " +message);
+        LogMessages.Enqueue(message);
     }
 
     private static string PrettyConnectionString(string hostname, int port, string slot, string password)
@@ -176,8 +180,6 @@ public class Client
             Plugin.Logger.LogInfo($"Adding locations {waitingLocations.Count}");
             if (locations.Count == 0) return;
             Plugin.Logger.LogInfo($"Completing locations {string.Join(",", locations)}");
-            var genericWeaponLocations = GenericWeaponLocationsUnlocked(locations);
-            locations.UnionWith(genericWeaponLocations);
             Session.Locations.CompleteLocationChecks(locations.ToArray());
             Plugin.Logger.LogInfo($"Saving locations completed {string.Join(",", locations)}");
             State.CompleteLocations(locations);
@@ -186,132 +188,6 @@ public class Client
         {
             Plugin.Logger.LogError(e);
         }
-    }
-    
-    private ISet<long> GenericWeaponLocationsUnlocked(HashSet<long> locations)
-    {
-        var allCurrentLocations = 
-            locations
-                .Union(State.AllCompletedLocations)
-                .Select(
-                    id => Session.Locations.GetLocationNameFromId(id)
-                )
-                .ToHashSet();
-        var locationGroups = Session.DataStorage.GetLocationNameGroups();
-        var findSpecificWeaponLocations = locationGroups["Find specific weapon"].ToHashSet();
-        var rankUpSpecificWeaponLocations = locationGroups["Rank up specific weapon"].ToHashSet();
-        var sacrificeSpecificWeaponLocations = locationGroups["Sacrifice specific weapon"].ToHashSet();
-        var findWeaponModelLocations = locationGroups["Find unique weapon model"].ToHashSet();
-        var rankUpWeaponModelLocations = locationGroups["Rank up unique weapon model"].ToHashSet();
-        var sacrificeWeaponModelLocations = locationGroups["Sacrifice unique weapon model"].ToHashSet();
-        var rank1Locations = locationGroups["Rank 1"].ToHashSet();
-        var rank2Locations = locationGroups["Rank 1"].ToHashSet();
-        var rank3Locations = locationGroups["Rank 1"].ToHashSet();
-        var rank4Locations = locationGroups["Rank 1"].ToHashSet();
-        var rank5Locations = locationGroups["Rank 1"].ToHashSet();
-        
-        var returnLocations = new HashSet<string>();
-        var meleeLocations = locationGroups["Melee Weapon"].ToHashSet();
-        returnLocations.UnionWith(WeaponModelLocationsCompleted(
-            allCurrentLocations,
-            meleeLocations,
-            findSpecificWeaponLocations,
-            findWeaponModelLocations
-        ));
-        
-        var weaponTypes = new List<string>
-        {
-            "Assault Rifle",
-            "Light Machine Gun",
-            "Pistol",
-            "Revolver",
-            "Rifle",
-            "Shotgun",
-            "Sniper Rifle",
-            "Sub-Machine Gun"
-        };
-        foreach (var weaponType in weaponTypes)
-        {
-            var weaponTypeLocations = locationGroups[weaponType].ToHashSet();
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                findSpecificWeaponLocations,
-                findWeaponModelLocations
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                weaponTypeLocations.Intersect(rankUpSpecificWeaponLocations).Intersect(rank1Locations).ToHashSet(),
-                weaponTypeLocations.Intersect(rankUpWeaponModelLocations).Intersect(rank1Locations).ToHashSet()
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                weaponTypeLocations.Intersect(rankUpSpecificWeaponLocations).Intersect(rank2Locations).ToHashSet(),
-                weaponTypeLocations.Intersect(rankUpWeaponModelLocations).Intersect(rank2Locations).ToHashSet()
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                weaponTypeLocations.Intersect(rankUpSpecificWeaponLocations).Intersect(rank3Locations).ToHashSet(),
-                weaponTypeLocations.Intersect(rankUpWeaponModelLocations).Intersect(rank3Locations).ToHashSet()
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                weaponTypeLocations.Intersect(rankUpSpecificWeaponLocations).Intersect(rank4Locations).ToHashSet(),
-                weaponTypeLocations.Intersect(rankUpWeaponModelLocations).Intersect(rank4Locations).ToHashSet()
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                weaponTypeLocations.Intersect(rankUpSpecificWeaponLocations).Intersect(rank5Locations).ToHashSet(),
-                weaponTypeLocations.Intersect(rankUpWeaponModelLocations).Intersect(rank5Locations).ToHashSet()
-            ));
-            returnLocations.UnionWith(WeaponModelLocationsCompleted(
-                allCurrentLocations,
-                weaponTypeLocations,
-                sacrificeSpecificWeaponLocations,
-                sacrificeWeaponModelLocations
-            ));
-        }
-
-        return returnLocations.Select(name => Session.Locations.GetLocationIdFromName("SULFUR", name)).ToHashSet();
-    }
-
-    private ISet<string> WeaponModelLocationsCompleted(
-        ISet<string> allCurrentLocations,
-        HashSet<string> weaponTypeLocations,
-        HashSet<string> specificWeaponLocations,
-        HashSet<string> weaponModelLocations
-    )
-    {
-        var locationsCompleted = new HashSet<string>();
-        var specificLocations = allCurrentLocations
-            .Intersect(weaponTypeLocations)
-            .Intersect(specificWeaponLocations)
-            .ToList();
-        Plugin.Logger.LogInfo("Sorted items: " + string.Join(",", specificLocations));
-        var specificLocationsAmount =
-            allCurrentLocations
-                .Intersect(weaponTypeLocations)
-                .Intersect(specificWeaponLocations)
-                .Count();
-        Plugin.Logger.LogInfo(specificLocationsAmount);
-        var sortedModelLocations =
-            weaponTypeLocations
-                .Intersect(weaponModelLocations)
-                .OrderBy(name => Session.Locations.GetLocationIdFromName("SULFUR", name))
-                .ToList();
-        Plugin.Logger.LogInfo("Sorted items: " + string.Join(",", sortedModelLocations));
-        for (var i = 0; i < specificLocationsAmount; i++)
-        {
-            Plugin.Logger.LogInfo("Adding location");
-            locationsCompleted.Add(sortedModelLocations[i]);
-        }
-
-        return locationsCompleted;
     }
 
     public bool Connected()

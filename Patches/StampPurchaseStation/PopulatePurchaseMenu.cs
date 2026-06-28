@@ -3,6 +3,8 @@ using System.Linq;
 using Archipelago.Archipelago;
 using HarmonyLib;
 using PerfectRandom.Sulfur.Core.World;
+using Unity.Mathematics;
+using UnityEngine;
 
 namespace Archipelago.Patches;
 
@@ -11,8 +13,19 @@ public class PopulatePurchaseMenu
 {
     private static Dictionary<string, StampLocation> _stampLocations = [];
     
-    public static void Prefix()
+    public static void Prefix(StampPurchaseStation __instance)
     {
+        var rng = new Unity.Mathematics.Random(
+            (uint)Plugin.Client.Session.RoomState.Seed.GetHashCode()
+        );
+        foreach (var listItem in __instance.purchasableItems)
+        {
+            if (listItem.isEndlessUpgrade) continue;
+            var itemIdString = ArchipelagoItems.Get(listItem.id).Name;
+            var locationName = $"Trade stamps for the {itemIdString}";
+            rng.state = (uint)Plugin.Client.Session.Locations.GetLocationIdFromName("SULFUR", locationName);
+            listItem.basePrice = math.abs(rng.NextInt() % 15) + 10;
+        }
         if (_stampLocations.Count > 0) return;
         var stampLocationIds = Plugin.Client.Session.DataStorage.GetLocationNameGroups()["Stamp trade with Arthur"].Select(name =>
             Plugin.Client.Session.Locations.GetLocationIdFromName("SULFUR", name));
@@ -38,6 +51,7 @@ public class PopulatePurchaseMenu
             var itemIdString = ArchipelagoItems.Get(listItem.Item.id).Name;
             var locationName = $"Trade stamps for the {itemIdString}";
             var stampLocation = _stampLocations[locationName];
+            listItem.UpdateDisplay();
             listItem.label.text = stampLocation.Name;
             listItem.flavorLabel.text = stampLocation.Description;
         }

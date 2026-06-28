@@ -90,6 +90,8 @@ public class GameState
     public void SpawnedAllWaitingItems()
     {
         SulfurSave.SaveToDisk(SaveKeys.ChurchCollectionItems, WaitingItems);
+        UnlockedSulf = 0;
+        SulfurSave.SaveToDisk(SaveKeys.UnlockedSulf, UnlockedSulf);
     }
         
     private static class SaveKeys
@@ -98,7 +100,6 @@ public class GameState
         internal const string Index = $"{Prefix}Index";
         internal const string AllCompletedLocations = $"{Prefix}AllCompletedLocations";
         internal const string PrintableWeaponIds = $"{Prefix}PrintableWeaponIds";
-        internal const string AlreadyScoutedStampLocations = $"{Prefix}AlreadyScoutedStampLocations";
         internal const string ScrollUnlocks = $"{Prefix}ScrollUnlocks";
         internal const string CheckpointUnlocks = $"{Prefix}CheckpointUnlocks";
         internal const string UnlockedSulf = $"{Prefix}UnlockedSulf";

@@ -15,6 +15,7 @@ public class IsPurchased
         var itemIdString = ArchipelagoItems.Get(item.id).Name;
         var locationName = $"Trade stamps for the {itemIdString}";
         __result = Plugin.Client.State.AllCompletedLocations.Contains(Plugin.Client.Session.Locations.GetLocationIdFromName("SULFUR", locationName));
+        __result = false;
         return false;
     }
 }

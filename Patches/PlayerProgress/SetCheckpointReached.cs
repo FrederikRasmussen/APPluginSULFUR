@@ -3,6 +3,8 @@ using Archipelago.Archipelago;
 using HarmonyLib;
 using PerfectRandom.Sulfur.Core;
 using PerfectRandom.Sulfur.Core.DataStorage;
+using PerfectRandom.Sulfur.Core.World;
+using UnityEngine;
 
 namespace Archipelago.Patches;
 
@@ -10,14 +12,13 @@ namespace Archipelago.Patches;
 public class SetCheckpointReached
 {
     private static readonly HashSet<string> LockedCheckpoints = [
-        "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_01_Shanty,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_01_Sewers,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_01_Hedgemaze,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_01_Dungeon,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_01_Castle,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_02_Forest,
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_02_Bridge,
-        "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_03_Desert,
+        "BossDead_Emperor", // unlocks desert shortcut
         "ReachedEnvironment_WorldEnvironment_" + WorldEnvironmentIds.Act_03_EndChurch,
     ];
 
@@ -33,6 +34,7 @@ public class SetCheckpointReached
     
     public static void Prefix(string identifier, ref bool reached)
     {
+        Plugin.Logger.LogInfo($"Trying to unlock {identifier} with {reached}");
         if (LockedCheckpoints.Contains(identifier) &&
             !Plugin.Client.State.CheckpointUnlocks.Contains(ArchipelagoItems.Get(identifier).Id)) reached = false;
         if (!reached) return;
@@ -50,5 +52,17 @@ public class SetCheckpointReached
         }
         if (BossCheckpoints.ContainsKey(identifier))
             Plugin.Client.CompleteLocations(BossCheckpoints[identifier]);
+        Plugin.Logger.LogInfo($"Unlocked {identifier} with {reached}");
+    }
+
+    public static void Postfix(string identifier)
+    {
+        if (!identifier.StartsWith("ItemBroughtToChurch_")) return;
+        Plugin.Logger.LogInfo("Checking for activation of " + identifier);
+        foreach (var unlockableStorage in Object.FindObjectsByType<UnlockableStorage>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+        {
+            Plugin.Logger.LogInfo(unlockableStorage.name);
+            unlockableStorage.DoActivationCheck();
+        }
     }
 }

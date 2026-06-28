@@ -33,8 +33,9 @@ public class AddItem
                 gunItem.ModifyDurability(gunItem.DurabilityMax);
                 return;
             }
+            
             #pragma warning disable Harmony003
-            else if (!HasReplacedOnboardingMelee && id.GetAsset().slotType == SlotType.BasicMelee)
+            if (!HasReplacedOnboardingMelee && id.GetAsset().slotType == SlotType.BasicMelee)
             #pragma warning restore Harmony003
             {
                 HasReplacedOnboardingMelee = true;
