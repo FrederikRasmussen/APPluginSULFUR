@@ -1,0 +1,982 @@
+Ammo_12Ga, Consumable, 70, Common
+Ammo_50BMG, Consumable, 100, Common
+Ammo_556, Consumable, 100, Common
+Ammo_762, Consumable, 120, Common
+Ammo_9mm, Consumable, 50, Common
+Ammo_EnergyCell, Consumable, 100, Common
+AmuletCharge, Consumable, 1000, Common
+Attachment_A12CMuzzleBrake, Attachment, 480, Rare
+Attachment_AssaultScope, Attachment, 500, Rare
+Attachment_BarrelExtension2i, Attachment, 480, Rare
+Attachment_BarrelExtension4i, Attachment, 480, Rare
+Attachment_BarrelExtension6i, Attachment, 480, Rare
+Attachment_BreznikBMD, Attachment, 480, Rare
+Attachment_BreznikBMDTactical, Attachment, 480, Rare
+Attachment_CompactSight, Attachment, 500, Rare
+Attachment_GunCrank, Attachment, 680, Uncommon
+Attachment_HauklandFlashHider, Attachment, 480, Rare
+Attachment_HolographicSight, Attachment, 230, Uncommon
+Attachment_HuntingScope, Attachment, 550, Rare
+Attachment_ImprovisedBarrelExtension, Attachment, 300, Common
+Attachment_Insurance, Attachment, 10000, Legendary
+Attachment_LaserSightGreen, Attachment, 280, Uncommon
+Attachment_LaserSightRed, Attachment, 280, Uncommon
+Attachment_LaserSightYellow, Attachment, 500, Uncommon
+Attachment_PrimingBolt, Attachment, 680, Uncommon
+Attachment_ReconScope, Attachment, 280, Rare
+Attachment_ReflexSight, Attachment, 320, Uncommon
+Attachment_ShroudedBarrelExtension, Attachment, 480, Rare
+Attachment_SniperScope, Attachment, 700, Rare
+Attachment_Suppressor556, Attachment, 890, Rare
+Attachment_Suppressor762, Attachment, 740, Rare
+Attachment_Suppressor9mm, Attachment, 580, Rare
+Attachment_SuppressorCan, Attachment, 550, Rare
+Attachment_WarmageCompensator, Attachment, 480, Rare
+Consumable_ChamberChisel12ga, Gadget, 15000, Rare
+Consumable_ChamberChisel50BMG, Gadget, 3400, Rare
+Consumable_ChamberChisel556, Gadget, 2200, Rare
+Consumable_ChamberChisel762, Gadget, 3000, Rare
+Consumable_ChamberChisel9mm, Gadget, 700, Rare
+Currency_SulfBill, Consumable, 100, Common
+Currency_SulfCoin, Consumable, 100, Common
+Currency_SulfTwenny, Consumable, 100, Common
+Enchantment_ActionOil, Enchantment, 700, Rare
+Enchantment_AddDamageOil, Enchantment, 500, Rare
+Enchantment_Aftershock, Enchantment, 5000, Legendary
+Enchantment_AimlessOil, Enchantment, 800, Rare
+Enchantment_AirSoftOil, Enchantment, 650, Rare
+Enchantment_AltruisticOil, Enchantment, 800, Rare
+Enchantment_ArkanoidOil, Enchantment, 1200, Rare
+Enchantment_ArrowOil, Enchantment, 200, Rare
+Enchantment_ArteryOil, Enchantment, 300, Rare
+Enchantment_ArtilleryOil, Enchantment, 650, Rare
+Enchantment_AsceticOil, Enchantment, 350, Rare
+Enchantment_AssassinDartOil, Enchantment, 250, Rare
+Enchantment_AttackSpeedOil, Enchantment, 800, Rare
+Enchantment_AxeOil, Enchantment, 300, Rare
+Enchantment_BadPlanetOil, Enchantment, 500, Rare
+Enchantment_BanditOil, Enchantment, 600, Rare
+Enchantment_BBOil, Enchantment, 650, Rare
+Enchantment_Big, Enchantment, 400, Rare
+Enchantment_BigOil, Enchantment, 500, Rare
+Enchantment_BigTaxOil, Enchantment, 220, Rare
+Enchantment_BirthOil, Enchantment, 100, Rare
+Enchantment_BlackFridayOil, Enchantment, 300, Rare
+Enchantment_BlindfoldOil, Enchantment, 700, Rare
+Enchantment_BlurtOil, Enchantment, 300, Rare
+Enchantment_BoltOil, Enchantment, 370, Rare
+Enchantment_BombardOil, Enchantment, 600, Rare
+Enchantment_BoomstickOil, Enchantment, 700, Rare
+Enchantment_BoulderOil, Enchantment, 800, Rare
+Enchantment_Bounce, Enchantment, 400, Rare
+Enchantment_BowlOil, Enchantment, 800, Rare
+Enchantment_BracedOil, Enchantment, 800, Rare
+Enchantment_Brutality, Enchantment, 600, Rare
+Enchantment_BruteOil, Enchantment, 700, Rare
+Enchantment_BulkOil, Enchantment, 650, Rare
+Enchantment_BystanderOil, Enchantment, 500, Rare
+Enchantment_CarefreeOil, Enchantment, 800, Rare
+Enchantment_CarefulOil, Enchantment, 800, Rare
+Enchantment_CarelessSplitterOil, Enchantment, 650, Rare
+Enchantment_CartoonOil, Enchantment, 1000, Rare
+Enchantment_CasualOil, Enchantment, 1000, Rare
+Enchantment_ChainLightning, Enchantment, 4000, Legendary
+Enchantment_ChaosStrike, Enchantment, 2000, Legendary
+Enchantment_Charm, Enchantment, 2000, Legendary
+Enchantment_CheapOil, Enchantment, 700, Rare
+Enchantment_ChonkOil, Enchantment, 200, Rare
+Enchantment_ChubOil, Enchantment, 100, Rare
+Enchantment_ClumpOil, Enchantment, 175, Rare
+Enchantment_CollateralOil, Enchantment, 350, Rare
+Enchantment_ComplicatedOil, Enchantment, 800, Rare
+Enchantment_CompoOil, Enchantment, 1100, Rare
+Enchantment_ConfidenceOil, Enchantment, 750, Rare
+Enchantment_CongestionOil, Enchantment, 300, Rare
+Enchantment_ConsiderateOil, Enchantment, 300, Rare
+Enchantment_ContainedForceOil, Enchantment, 500, Rare
+Enchantment_CorpseExplosion, Enchantment, 3000, Legendary
+Enchantment_CorrosiveBlood, Enchantment, 3000, Legendary
+Enchantment_CriticalOil, Enchantment, 800, Rare
+Enchantment_Crusader, Enchantment, 1000, Legendary
+Enchantment_CycleOil, Enchantment, 800, Rare
+Enchantment_DamageOil, Enchantment, 1300, Rare
+Enchantment_Dark, Enchantment, 1000, Epic
+Enchantment_DartOil, Enchantment, 230, Rare
+Enchantment_DeadCenterOil, Enchantment, 800, Rare
+Enchantment_DelayedHyperTubeOil, Enchantment, 400, Rare
+Enchantment_DenseOil, Enchantment, 700, Rare
+Enchantment_DetuneOil, Enchantment, 800, Rare
+Enchantment_DieselOil, Enchantment, 225, Rare
+Enchantment_DischargeOil, Enchantment, 800, Rare
+Enchantment_DisposableOil, Enchantment, 650, Rare
+Enchantment_DivisionOil, Enchantment, 700, Rare
+Enchantment_DoOverOil, Enchantment, 800, Rare
+Enchantment_DoubleFireOil, Enchantment, 800, Rare
+Enchantment_DoubleLockOil, Enchantment, 800, Rare
+Enchantment_DoubleNothingOil, Enchantment, 700, Rare
+Enchantment_Duality, Enchantment, 800, Rare
+Enchantment_DumDumOil, Enchantment, 1000, Rare
+Enchantment_DynamicOil, Enchantment, 450, Rare
+Enchantment_Earth, Enchantment, 1000, Epic
+Enchantment_EasyOil, Enchantment, 900, Rare
+Enchantment_EasyPlopOil, Enchantment, 300, Rare
+Enchantment_Electricity, Enchantment, 1000, Epic
+Enchantment_ElephantOil, Enchantment, 650, Rare
+Enchantment_EternalOil, Enchantment, 4000, Rare
+Enchantment_ExoticBarrelOil, Enchantment, 500, Rare
+Enchantment_ExpanderOil, Enchantment, 500, Rare
+Enchantment_ExtraPowderOil, Enchantment, 400, Rare
+Enchantment_FarsightedOil, Enchantment, 200, Rare
+Enchantment_FastBetOil, Enchantment, 450, Rare
+Enchantment_FastForwardOil, Enchantment, 1000, Rare
+Enchantment_Fear, Enchantment, 2500, Legendary
+Enchantment_FeatureGun, Enchantment, 1200, Rare
+Enchantment_FidgetLordOil, Enchantment, 1000, Rare
+Enchantment_FidgetOil, Enchantment, 450, Rare
+Enchantment_Fire, Enchantment, 1000, Epic
+Enchantment_FirstBloodOil, Enchantment, 1200, Rare
+Enchantment_FlameThrower, Enchantment, 5000, Legendary
+Enchantment_FleaOil, Enchantment, 800, Rare
+Enchantment_FlopOil, Enchantment, 400, Rare
+Enchantment_FlowFunnelOil, Enchantment, 650, Rare
+Enchantment_Flutter, Enchantment, 700, Rare
+Enchantment_FoodStampOil, Enchantment, 300, Rare
+Enchantment_ForceOil, Enchantment, 1000, Rare
+Enchantment_FragileSystemOil, Enchantment, 500, Rare
+Enchantment_FranciscanOil, Enchantment, 450, Rare
+Enchantment_Frost, Enchantment, 1000, Epic
+Enchantment_FrugalOil, Enchantment, 700, Rare
+Enchantment_GamblerOil, Enchantment, 650, Rare
+Enchantment_GargantuanOil, Enchantment, 400, Rare
+Enchantment_GeminiOil, Enchantment, 800, Rare
+Enchantment_GentleOil, Enchantment, 300, Rare
+Enchantment_GlassCannonOil, Enchantment, 800, Rare
+Enchantment_GreatOil, Enchantment, 450, Rare
+Enchantment_GroundedOil, Enchantment, 500, Rare
+Enchantment_GunslingerOil, Enchantment, 900, Rare
+Enchantment_HappyAccidentOil, Enchantment, 800, Rare
+Enchantment_HeavyLeadOil, Enchantment, 100, Rare
+Enchantment_HeavyOil, Enchantment, 650, Rare
+Enchantment_HeavyPocketsOil, Enchantment, 800, Rare
+Enchantment_HeftyOil, Enchantment, 1000, Rare
+Enchantment_HeliumOil, Enchantment, 650, Rare
+Enchantment_HighGradeOil, Enchantment, 1200, Rare
+Enchantment_HipBlasterOil, Enchantment, 700, Rare
+Enchantment_HipMarksmanOil, Enchantment, 800, Rare
+Enchantment_HolyFire, Enchantment, 7000, Legendary
+Enchantment_HolyPurge, Enchantment, 6000, Legendary
+Enchantment_HoopOil, Enchantment, 500, Rare
+Enchantment_HunterOil, Enchantment, 1100, Rare
+Enchantment_HustlerOil, Enchantment, 500, Rare
+Enchantment_HyperLeadOil, Enchantment, 800, Rare
+Enchantment_ImperfectOil, Enchantment, 500, Rare
+Enchantment_InconsiderateOil, Enchantment, 250, Rare
+Enchantment_InheritedOil, Enchantment, 1500, Rare
+Enchantment_InstantOil, Enchantment, 500, Rare
+Enchantment_JudgementOil, Enchantment, 800, Rare
+Enchantment_JungianOil, Enchantment, 600, Rare
+Enchantment_KeepOil, Enchantment, 700, Rare
+Enchantment_KickerOil, Enchantment, 650, Rare
+Enchantment_KineticOil, Enchantment, 350, Rare
+Enchantment_LastDropOil, Enchantment, 250, Rare
+Enchantment_LateBoomOil, Enchantment, 150, Rare
+Enchantment_LauncherOil, Enchantment, 800, Rare
+Enchantment_Lava, Enchantment, 4000, Legendary
+Enchantment_LazyOil, Enchantment, 800, Rare
+Enchantment_LeastResistance, Enchantment, 6000, Legendary
+Enchantment_LessRecoilOil, Enchantment, 1200, Rare
+Enchantment_Light, Enchantment, 1000, Epic
+Enchantment_LightweightOil, Enchantment, 700, Rare
+Enchantment_LongshotOil, Enchantment, 1200, Rare
+Enchantment_LostInFocusOil, Enchantment, 650, Rare
+Enchantment_LowRollerOil, Enchantment, 700, Rare
+Enchantment_MachineOil, Enchantment, 1000, Rare
+Enchantment_MainDisciplineOil, Enchantment, 650, Rare
+Enchantment_MainFocusOil, Enchantment, 700, Rare
+Enchantment_ManifestationOil, Enchantment, 1100, Rare
+Enchantment_MatrixOil, Enchantment, 300, Rare
+Enchantment_MicroWingOil, Enchantment, 300, Rare
+Enchantment_ModernTechnologyOil, Enchantment, 600, Rare
+Enchantment_MosquitoOil, Enchantment, 650, Rare
+Enchantment_MultichamberOil, Enchantment, 1200, Rare
+Enchantment_MultishotOil, Enchantment, 600, Rare
+Enchantment_Nature, Enchantment, 1000, Epic
+Enchantment_NeedleeyeOil, Enchantment, 200, Rare
+Enchantment_NerfOil, Enchantment, 650, Rare
+Enchantment_NoLookOil, Enchantment, 800, Rare
+Enchantment_NoNeedOil, Enchantment, 1000, Rare
+Enchantment_Noxiosa, Enchantment, 3000, Legendary
+Enchantment_OutOfTheBoxOil, Enchantment, 400, Rare
+Enchantment_OverclockOil, Enchantment, 1000, Rare
+Enchantment_OverdoseOil, Enchantment, 100, Rare
+Enchantment_OverOil, Enchantment, 400, Rare
+Enchantment_ParallelMagOil, Enchantment, 800, Rare
+Enchantment_PeashooterOil, Enchantment, 1000, Rare
+Enchantment_PenetrationOil, Enchantment, 1000, Rare
+Enchantment_PerfectBounceOil, Enchantment, 800, Rare
+Enchantment_PerforateOil, Enchantment, 800, Rare
+Enchantment_Pesticide, Enchantment, 4500, Legendary
+Enchantment_Petrification, Enchantment, 4000, Legendary
+Enchantment_Petroleum, Enchantment, 400, Legendary
+Enchantment_PlinkerOil, Enchantment, 800, Rare
+Enchantment_PlopBackOil, Enchantment, 800, Rare
+Enchantment_Poison, Enchantment, 1000, Epic
+Enchantment_PoolOil, Enchantment, 1200, Rare
+Enchantment_PotatoOil, Enchantment, 400, Rare
+Enchantment_PotShotOil, Enchantment, 800, Rare
+Enchantment_Prism, Enchantment, 3000, Legendary
+Enchantment_PuncherOil, Enchantment, 1200, Rare
+Enchantment_PunctureOil, Enchantment, 800, Rare
+Enchantment_PurseGunOil, Enchantment, 1200, Rare
+Enchantment_Pyroclasm, Enchantment, 2000, Legendary
+Enchantment_RapidInternalsOil, Enchantment, 400, Rare
+Enchantment_ReadyOil, Enchantment, 800, Rare
+Enchantment_ReboundOil, Enchantment, 500, Rare
+Enchantment_RecycleOil, Enchantment, 1000, Rare
+Enchantment_RelaxOil, Enchantment, 800, Rare
+Enchantment_ReleaseOil, Enchantment, 1100, Rare
+Enchantment_ReloadOil, Enchantment, 1100, Rare
+Enchantment_RicochetOil, Enchantment, 650, Rare
+Enchantment_RigidSystemOil, Enchantment, 800, Rare
+Enchantment_RigorOil, Enchantment, 125, Rare
+Enchantment_RobustMechanicsOil, Enchantment, 800, Rare
+Enchantment_RocketLauncher, Enchantment, 2000, Legendary
+Enchantment_RookieOil, Enchantment, 300, Rare
+Enchantment_RubberOil, Enchantment, 500, Rare
+Enchantment_RushJobOil, Enchantment, 800, Rare
+Enchantment_Sacrifice, Enchantment, 3500, Legendary
+Enchantment_SafetyOil, Enchantment, 650, Rare
+Enchantment_Satiety, Enchantment, 600, Rare
+Enchantment_SaviourOil, Enchantment, 900, Rare
+Enchantment_ScatterOil, Enchantment, 800, Rare
+Enchantment_ScrambleOil, Enchantment, 600, Rare
+Enchantment_SeatedFitOil, Enchantment, 800, Rare
+Enchantment_SeatedOil, Enchantment, 500, Rare
+Enchantment_SectOil, Enchantment, 600, Rare
+Enchantment_SenderOil, Enchantment, 500, Rare
+Enchantment_SensibleOil, Enchantment, 650, Rare
+Enchantment_ShavedClipOil, Enchantment, 550, Rare
+Enchantment_ShellManOil, Enchantment, 800, Rare
+Enchantment_SherlockOil, Enchantment, 800, Rare
+Enchantment_ShowerOil, Enchantment, 500, Rare
+Enchantment_ShredderOil, Enchantment, 700, Rare
+Enchantment_SizeUpOil, Enchantment, 500, Rare
+Enchantment_SkipOil, Enchantment, 650, Rare
+Enchantment_Slayer, Enchantment, 800, Rare
+Enchantment_SlickOil, Enchantment, 1000, Rare
+Enchantment_SlippyCoatingOil, Enchantment, 1200, Rare
+Enchantment_SlotmachineOil, Enchantment, 700, Rare
+Enchantment_SlowMoOil, Enchantment, 1000, Rare
+Enchantment_SlowPunchOil, Enchantment, 500, Rare
+Enchantment_Slush, Enchantment, 3000, Legendary
+Enchantment_SmartBulletOil, Enchantment, 500, Rare
+Enchantment_SmashOil, Enchantment, 600, Rare
+Enchantment_SoftBulletOil, Enchantment, 700, Rare
+Enchantment_SolidOil, Enchantment, 350, Rare
+Enchantment_SpartanOil, Enchantment, 1000, Rare
+Enchantment_SpeedTradeOil, Enchantment, 400, Rare
+Enchantment_SpitterOil, Enchantment, 700, Rare
+Enchantment_SpreadOil, Enchantment, 900, Rare
+Enchantment_StabilityOil, Enchantment, 800, Rare
+Enchantment_StableHipOil, Enchantment, 1100, Rare
+Enchantment_StationaryOil, Enchantment, 1200, Rare
+Enchantment_Steam, Enchantment, 5000, Legendary
+Enchantment_StiffyFitOil, Enchantment, 900, Rare
+Enchantment_StoicOil, Enchantment, 1100, Rare
+Enchantment_StormSurge, Enchantment, 4000, Legendary
+Enchantment_SupressiveOil, Enchantment, 300, Rare
+Enchantment_SurgicalLaserOil, Enchantment, 400, Rare
+Enchantment_SynchronicityOil, Enchantment, 800, Rare
+Enchantment_TacticalOil, Enchantment, 650, Rare
+Enchantment_TandemOil, Enchantment, 800, Rare
+Enchantment_TaskOil, Enchantment, 900, Rare
+Enchantment_TechSupportOil, Enchantment, 1100, Rare
+Enchantment_TensionOil, Enchantment, 1100, Rare
+Enchantment_TerminatorOil, Enchantment, 1000, Rare
+Enchantment_TestOil, Enchantment, 400, Rare
+Enchantment_TestOil2, Enchantment, 400, Rare
+Enchantment_TetrisOil, Enchantment, 1200, Rare
+Enchantment_ThoroughOil, Enchantment, 900, Rare
+Enchantment_Thunderbolt, Enchantment, 6000, Legendary
+Enchantment_TightBarrelOil, Enchantment, 500, Rare
+Enchantment_TightOil, Enchantment, 400, Rare
+Enchantment_TooMuchOil, Enchantment, 900, Rare
+Enchantment_ToxicLobotomy, Enchantment, 4000, Legendary
+Enchantment_Trinity, Enchantment, 800, Rare
+Enchantment_TrustyOldOil, Enchantment, 750, Rare
+Enchantment_TurbulenceOil, Enchantment, 600, Rare
+Enchantment_TwiceOil, Enchantment, 1000, Rare
+Enchantment_TwoTimeOil, Enchantment, 1300, Rare
+Enchantment_UnlabeledOil, Enchantment, 300, Rare
+Enchantment_UntechnicalOil, Enchantment, 300, Rare
+Enchantment_VasectomyOil, Enchantment, 700, Rare
+Enchantment_VeganOil, Enchantment, 800, Rare
+Enchantment_VegetableOil, Enchantment, 800, Rare
+Enchantment_VelocityOil, Enchantment, 220, Rare
+Enchantment_Voodoo, Enchantment, 1200, Legendary
+Enchantment_WalkEasyOil, Enchantment, 250, Rare
+Enchantment_WasterOil, Enchantment, 800, Rare
+Enchantment_Water, Enchantment, 1000, Epic
+Enchantment_WhimOil, Enchantment, 450, Rare
+Enchantment_WhosCountingOil, Enchantment, 500, Rare
+Enchantment_WobbleOil, Enchantment, 800, Rare
+Enchantment_XanaxOil, Enchantment, 500, Rare
+Enchantment_ZeroFucksOil, Enchantment, 800, Rare
+Enchantment_ZoomingOil, Enchantment, 450, Rare
+Item_AirBat, Armor, 800, Rare
+Item_AirDuster, Misc, 180, Common
+Item_Americano, Consumable, 15, 35, Rare
+Item_Amulet, Misc, 0, Legendary
+Item_Aspic, Consumable, 15, 90, Common
+Item_AssWheel, Misc, 9000, Epic
+Item_BadassVest, Armor, 700, Rare
+Item_Balaklava, Armor, 500, Uncommon
+Item_BallisticHelmet, Armor, 1100, Epic
+Item_BallisticVest, Armor, 2300, Epic
+Item_Banana, Consumable, 10, 30, Common
+Item_BananaBread, Consumable, 30, 90, Common
+Item_BananaPeel, Misc, 10, Common
+Item_BananaSulfs, Consumable, 20, 20, Common
+Item_BandanaBlue, Armor, 460, Common
+Item_BandanaRed, Armor, 460, Common
+Item_Bark, Misc, 100, Common
+Item_BarkBread, Consumable, 10, 35, Common
+Item_Bathrobe, Armor, 700, Rare
+Item_Beanie, Armor, 300, Common
+Item_Beans, Consumable, 25, 120, Common
+Item_BeefJerky, Consumable, 10, 60, Common
+Item_BeerHelmet, Armor, 460, Common
+Item_BeGone, Misc, 250, Common
+Item_Berries, Consumable, 10, 40, Common
+Item_BiscuitsAndGravy, Consumable, 25, 130, Rare
+Item_BlackPepper, Consumable, 1, 30, Common
+Item_Bladder, Misc, 100, Common
+Item_BlastBoot, Armor, 400, Rare
+Item_Bleach, Misc, 120, Common
+Item_Blindfold, Armor, 150, Common
+Item_Blood, Consumable, 5, 60, Common
+Item_BloodBag, Gadget, 100, Epic
+Item_BloodPudding, Consumable, 30, 90, Common
+Item_BlueSlipper, Armor, 300, Common
+Item_BobaTea, Consumable, 15, 60, Common
+Item_Bomb, Gadget, 100, Epic
+Item_Bone, Misc, 35, Common
+Item_Boomerang, Gadget, 100, Epic
+Item_Boomerang2, Gadget, 100, Epic
+Item_Bottle, Gadget, 100, Epic
+Item_BottledScream, Gadget, 100, Epic
+Item_BottledWater, Consumable, 5, 40, Common
+Item_Brain, Misc, 200, Common
+Item_Bread, Consumable, 15, 90, Common
+Item_Breastplate, Armor, 2100, Uncommon
+Item_Broth, Consumable, 10, 40, Common
+Item_Butter, Consumable, 15, 60, Common
+Item_ButtermilkPancakes, Consumable, 30, 220, Common
+Item_Cacao, Consumable, 5, 40, Common
+Item_Cactus, Consumable, 3, 40, Common
+Item_CactusDrink, Consumable, 15, 60, Common
+Item_CactusGrilled, Consumable, 20, 80, Common
+Item_CactusSweets, Consumable, 10, 30, Common
+Item_Caltrops, Gadget, 100, Epic
+Item_CamoJacket, Armor, 900, Rare
+Item_CandyCane, Consumable, 20, 90, Common
+Item_Cap, Armor, 200, Common
+Item_Cappuccino, Consumable, 35, 35, Rare
+Item_CaviarBottle, Consumable, 25, 120, Common
+Item_CaviarTubed, Consumable, 30, 240, Common
+Item_Cencer, Gadget, 100, Epic
+Item_Cereal, Consumable, 35, 110, Common
+Item_Cevapi, Consumable, 25, 220, Rare
+Item_Cheese, Consumable, 15, 100, Rare
+Item_Cheeseburger, Consumable, 45, 250, Rare
+Item_CheeseTops, Consumable, 25, 60, Rare
+Item_ChestOfDrawers, Misc, 10, Epic
+Item_ChickenLeg, Misc, 60, Rare
+Item_ChickenNashvilleHot, Consumable, 25, 220, Rare
+Item_ChocolateBall, Consumable, 20, 85, Rare
+Item_ChocolateBar, Consumable, 25, 180, Rare
+Item_ChocolateSyrup, Consumable, 10, 100, Common
+Item_ChristmasSock, Armor, 200, Common
+Item_ChristmasSpice, Consumable, 1, 10, Common
+Item_ChristmasSweater, Armor, 700, Rare
+Item_ClergyCollar, Armor, 1, Legendary
+Item_ClimbingGear, Gadget, 100, Epic
+Item_Clog, Armor, 400, Uncommon
+Item_Cloth, Misc, 20, Common
+Item_Coffee, Consumable, 20, 35, Rare
+Item_CombatBoots, Armor, 610, Uncommon
+Item_CordonBleu, Consumable, 25, 350, Rare
+Item_CottonCandy, Consumable, 20, 130, Common
+Item_CottonSwab, Misc, 25, Common
+Item_CowboyBoot, Armor, 330, Uncommon
+Item_CowboyHat, Armor, 750, Uncommon
+Item_CowboyVest, Armor, 700, Rare
+Item_CrawEye, Misc, 50, Common
+Item_CrawFlesh, Misc, 40, Common
+Item_CrawSkin, Misc, 30, Common
+Item_Crown, Armor, 15000, Epic
+Item_CryptKey, Misc, 5000, Common
+Item_CuissesDeGrenouille, Consumable, 35, 240, Common
+Item_CultistHeart, Misc, 150, Common
+Item_Curry, Consumable, 35, 30, Common
+Item_Currywurst, Consumable, 45, 225, Common
+Item_Darklamp, Misc, 10000, Epic
+Item_DeathsFavor, Gadget, 100, Epic
+Item_DenimJacket, Armor, 700, Rare
+Item_DetectivePipe, Misc, 15000, Epic
+Item_Dimmie, Consumable, 20, 50, Common
+Item_DisgustingCookbook, Gadget, 100, Epic
+Item_DishSoap, Misc, 100, Common
+Item_DivingMask, Armor, 360, Common
+Item_DogEye, Misc, 30, Common
+Item_DogFlesh, Misc, 45, Common
+Item_DogSkin, Misc, 40, Common
+Item_Dogtags, Misc, 1450, Epic
+Item_DogWhistle, Misc, 10000, Epic
+Item_DoppIGrytan, Consumable, 35, 130, Common
+Item_DoubleCheeseburger, Consumable, 200, 600, Rare
+Item_DunceCap, Armor, 700, Common
+Item_EarProtectors, Armor, 460, Common
+Item_Egg, Consumable, 5, 30, Common
+Item_EggToddy, Consumable, 10, 180, Common
+Item_EncryptedHoodie, Armor, 400, Rare
+Item_EnergyGum, Consumable, 80, Common
+Item_Escargot, Consumable, 30, 300, Common
+Item_ExtraLung, Misc, 500, Uncommon
+Item_EyePatch, Armor, 800, Rare
+Item_FalseSulfcap, Misc, 30, Common
+Item_FatbergChunk, Consumable, 50, Common
+Item_FirefighterHelmet, Armor, 700, Common
+Item_FirefighterJacket, Armor, 700, Rare
+Item_FirstAidKit, Consumable, 100, 60, Common
+Item_Fish, Consumable, 10, 40, Common
+Item_FishingRod, Gadget, 100, Epic
+Item_FishNChips, Consumable, 50, 250, Common
+Item_FishSalted, Consumable, 20, 90, Common
+Item_Flour, Consumable, 5, 60, Common
+Item_FluffyHat, Armor, 380, Uncommon
+Item_Fondue, Consumable, 50, 300, Common
+Item_FourLeafClover, Misc, 1450, Epic
+Item_FrenchHotdog, Consumable, 30, 110, Rare
+Item_FrenchToast, Consumable, 15, 150, Common
+Item_FrogLeg, Consumable, 3, 60, Rare
+Item_FrogmanFoot, Armor, 230, Uncommon
+Item_FullEnglishBreakfast, Consumable, 35, 550, Common
+Item_FunnyGas, Gadget, 100, Epic
+Item_GasMask, Armor, 650, Common
+Item_GenieShoe, Armor, 380, Rare
+Item_Geta, Armor, 440, Uncommon
+Item_GhillieSuit, Armor, 1500, Rare
+Item_GoblinEye, Misc, 30, Common
+Item_GoblinFlesh, Misc, 50, Common
+Item_GoblinSkin, Misc, 30, Common
+Item_GoldenSlipper, Armor, 5000, Common
+Item_Gonster, Consumable, 10, 40, Common
+Item_GravadLax, Consumable, 20, 90, Common
+Item_Gravy, Consumable, 20, 60, Common
+Item_GreenGlob, Misc, 100, Common
+Item_GrilledPoultry, Consumable, 100, 400, Common
+Item_GumHubba, Consumable, 10, 80, Common
+Item_Haggis, Consumable, 20, 30, Common
+Item_HardBread, Consumable, 8, 60, Common
+Item_HardHat, Armor, 420, Common
+Item_HardshellTaco, Consumable, 25, 60, Common
+Item_HauklandMembershipCard, Misc, 1, Rare
+Item_Hazelnut, Consumable, 2, 60, Common
+Item_HazmatSuit, Armor, 1100, Rare
+Item_HealthPotion, Consumable, 80, 60, Common
+Item_Heart, Misc, 200, Common
+Item_HedgehogSuit, Armor, 700, Rare
+Item_Herb, Consumable, 3, 20, Common
+Item_HerbalTea, Consumable, 10, 70, Common
+Item_HighHeel, Armor, 800, Common
+Item_HighQualityElfShoe, Armor, 1200, Rare
+Item_HockeyArmor, Armor, 1300, Common
+Item_HockeyHelmet, Armor, 420, Common
+Item_HolyToast, Consumable, 250, Legendary
+Item_HolyWater, Consumable, 500, Legendary
+Item_HolyWater_Old, Gadget, 100, Epic
+Item_HoodieSklett, Armor, 330, Rare
+Item_HotPot, Consumable, 50, 300, Common
+Item_HotSauce, Consumable, 5, 180, Common
+Item_HotSnax, Consumable, 15, 60, Common
+Item_HumanEye, Misc, 120, Common
+Item_HumanFlesh, Misc, 60, Common
+Item_HumanSkin, Misc, 60, Common
+Item_HuntingVest, Armor, 700, Rare
+Item_IceSkate, Armor, 380, Rare
+Item_InstantDefibrilator, Misc, 10000, Epic
+Item_Intestines, Misc, 40, Common
+Item_IronFeather, Misc, 3000, Epic
+Item_Jam, Consumable, 15, 90, Common
+Item_JamUnsweetened, Consumable, 10, 50, Common
+Item_JanssonsTemptation, Consumable, 45, 200, Common
+Item_Jello, Consumable, 15, 90, Common
+Item_Jetpack, Gadget, 100, Epic
+Item_Julmust, Consumable, 18, 90, Common
+Item_JuniperBranch, Gadget, 100, Epic
+Item_KarlOskar, Consumable, 5, 10, Common
+Item_Kidney, Misc, 100, Common
+Item_KidneyPie, Consumable, 35, 90, Common
+Item_KidneyStone, Consumable, 5, 60, Common
+Item_KneePads, Misc, 380, Uncommon
+Item_KnightsHelmet, Armor, 1000, Uncommon
+Item_Kombucha, Consumable, 15, 60, Common
+Item_Latte, Consumable, 30, 35, Rare
+Item_LeatherJacket, Armor, 650, Rare
+Item_Lemonade, Consumable, 60, Common
+Item_Leverpastej, Consumable, 20, 60, Common
+Item_LibraryCard, Misc, 4000, Epic
+Item_LifeVest, Armor, 800, Rare
+Item_LightningInABottle, Gadget, 100, Epic
+Item_Liquor, Consumable, 60, Common
+Item_Liver, Misc, 80, Common
+Item_LiverDumpling, Consumable, 20, 50, Common
+Item_LizardBladder, Misc, 300, Common
+Item_LizardEye, Misc, 35, Common
+Item_LizardFlesh, Misc, 50, Common
+Item_LizardSkin, Misc, 100, Common
+Item_LoadedDice, Misc, 15000, Epic
+Item_LockOfTheMagus, Misc, 7000, Epic
+Item_Lung, Misc, 60, Common
+Item_Lussekatt, Consumable, 30, 160, Common
+Item_Lutfisk, Consumable, 25, 90, Common
+Item_MacNCheese, Consumable, 30, 90, Common
+Item_Maki, Consumable, 30, 150, Common
+Item_Marshmallow, Consumable, 40, 200, Common
+Item_MashedPotatoes, Consumable, 30, 100, Uncommon
+Item_MatchaGum, Consumable, 10, 80, Common
+Item_MatchaTeaCup, Consumable, 10, 80, Common
+Item_MatchaTeaPowder, Consumable, 5, 40, Common
+Item_MeatSkewers, Consumable, 20, 80, Common
+Item_Meringue, Consumable, 15, 40, Common
+Item_MetabulatorPump, Misc, 8000, Epic
+Item_MetalDetector, Gadget, 100, Epic
+Item_MetalScrap, Misc, 100, Common
+Item_MicrofiberDishCloth, Misc, 50, Common
+Item_MilitaryHelmet, Armor, 2500, Common
+Item_MilkBlue, Consumable, 10, 40, Common
+Item_MilkButtermilk, Consumable, 15, 50, Common
+Item_MilkGreen, Consumable, 15, 40, Common
+Item_MilkRed, Consumable, 20, 40, Common
+Item_MilkshakeBerries, Consumable, 35, 60, Common
+Item_MilkshakeChocolate, Consumable, 35, 60, Common
+Item_MineralWater, Consumable, 120, Common
+Item_Mochi, Consumable, 25, 65, Common
+Item_MonkeyPaw, Gadget, 100, Epic
+Item_MotorcycleHelmet, Armor, 800, Common
+Item_Mudcake, Consumable, 50, 280, Common
+Item_MulledWine, Consumable, 30, 200, Common
+Item_MushroomFried, Consumable, 15, 130, Common
+Item_MushroomOmelette, Consumable, 20, 70, Common
+Item_MushroomSkewer, Consumable, 15, 100, Common
+Item_MushroomSoup, Consumable, 20, 70, Common
+Item_Mutagen, Misc, 4000, Common
+Item_MycotaSquamata, Consumable, 5, 120, Common
+Item_MysteryMeat, Consumable, 15, 60, Common
+Item_Nigiri, Consumable, 20, 210, Common
+Item_Nuggets, Consumable, 25, 80, Rare
+Item_NutMix, Consumable, 25, 200, Common
+Item_NutSpread, Consumable, 40, 220, Common
+Item_Oats, Consumable, 10, 50, Common
+Item_OfficeShirt, Armor, 500, Rare
+Item_OilLamp, Gadget, 100, Epic
+Item_OldTimeySuit, Armor, 1500, Rare
+Item_Omelette, Consumable, 22, 50, Common
+Item_Onigiri, Consumable, 35, 210, Common
+Item_Pancreas, Misc, 110, Common
+Item_Paper, Misc, 4, Common
+Item_Parka, Armor, 700, Rare
+Item_PastaBolognese, Consumable, 50, 250, Common
+Item_Peanut, Consumable, 5, 20, Common
+Item_PeanutButter, Consumable, 45, 250, Common
+Item_PegLeg, Armor, 610, Common
+Item_PillowArmor, Armor, 720, Uncommon
+Item_PineNut, Consumable, 5, 20, Common
+Item_PithHelmet, Armor, 700, Common
+Item_PizzaLarge, Consumable, 150, 400, Common
+Item_PizzaSlice, Consumable, 100, 150, Common
+Item_PlainWhiteTee, Armor, 150, Common
+Item_PlateCarrier, Armor, 4000, Rare
+Item_PlatformShoe, Armor, 350, Uncommon
+Item_PocketSand, Gadget, 100, Epic
+Item_PoisonGum, Consumable, 150, Common
+Item_PoliceHat, Armor, 600, Uncommon
+Item_PoliceUniform, Armor, 700, Rare
+Item_Polsa, Consumable, 20, 30, Common
+Item_Polse, Consumable, 15, 50, Common
+Item_PopeHat, Armor, 2000, Common
+Item_Porridge, Consumable, 15, 30, Common
+Item_Potato, Consumable, 5, 60, Common
+Item_PotatoSalad, Consumable, 15, 90, Common
+Item_Poutine, Consumable, 35, 225, Common
+Item_PowerBar, Consumable, 10, 30, Common
+Item_PrisonKey, Misc, 1000000, Common
+Item_Pyjama, Armor, 400, Rare
+Item_PyttIPanna, Consumable, 25, 200, Common
+Item_Raclette, Consumable, 50, 300, Common
+Item_Raincoat, Armor, 800, Rare
+Item_Ramen, Consumable, 40, 150, Common
+Item_RamenTori, Consumable, 40, 150, Common
+Item_RampartsKey, Misc, 0, Common
+Item_RangeFinder, Misc, 1450, Epic
+Item_RatCage, Gadget, 100, Epic
+Item_Razorang, Gadget, 100, Epic
+Item_RazorBlossom, Gadget, 100, Epic
+Item_Refrigerator, Misc, 10, Epic
+Item_Rhubarb, Consumable, 6, 20, Common
+Item_RhubarbPie, Consumable, 30, 80, Common
+Item_RhubarbPorridge, Consumable, 25, 20, Common
+Item_RhubarbSauce, Consumable, 20, 40, Common
+Item_Rice, Consumable, 5, 30, Common
+Item_RiceCake, Consumable, 15, 20, Common
+Item_Risalamalta, Consumable, 25, 90, Common
+Item_Risgrynsgrot, Consumable, 18, 90, Common
+Item_RobotBrain, Misc, 500, Common
+Item_RobotControlUnit, Misc, 250, Common
+Item_RobotEye, Misc, 170, Common
+Item_RobotFlesh, Misc, 125, Common
+Item_RobotHeart, Misc, 350, Common
+Item_RobotHydraul, Misc, 240, Common
+Item_RobotJoint, Misc, 230, Common
+Item_RobotPlate, Misc, 140, Common
+Item_RobotSeptacoil, Misc, 100, Common
+Item_RobotSoulCapsule, Misc, 800, Common
+Item_Rock, Misc, 10, Common
+Item_Rodsopp, Consumable, 5, 15, Common
+Item_RodsoppPaste, Consumable, 50, Common
+Item_Rollerblade, Armor, 380, Rare
+Item_RoundGlasses, Armor, 200, Common
+Item_Rubber, Misc, 10, Common
+Item_RubberBoot, Armor, 250, Uncommon
+Item_RudolfNose, Armor, 300, Common
+Item_RunningShoes, Armor, 700, Rare
+Item_Safe, Misc, 10, Legendary
+Item_SafetyVest, Armor, 400, Rare
+Item_Salt, Consumable, 1, 10, Common
+Item_SaltedSandfish, Consumable, 25, 100, Common
+Item_SamuraiArmor, Armor, 2000, Rare
+Item_SandFish, Consumable, 10, 40, Common
+Item_SandwichBread, Consumable, 15, 80, Common
+Item_SandwichBuddy, Consumable, 0, 1000, Common
+Item_SandwichButter, Consumable, 15, 60, Common
+Item_SandwichCheese, Consumable, 20, 85, Common
+Item_SandwichLeverpastej, Consumable, 20, 110, Common
+Item_SandwichNutSpread, Consumable, 20, 80, Common
+Item_SandwichPeanutbutter, Consumable, 25, 110, Common
+Item_SandwichPeanutbutterJelly, Consumable, 35, 130, Common
+Item_SantaCoat, Armor, 700, Rare
+Item_SantaHat, Armor, 600, Common
+Item_Sashimi, Consumable, 40, 220, Common
+Item_Sausage, Consumable, 30, 60, Common
+Item_SausageOmelette, Consumable, 42, 110, Common
+Item_SausageOnStick, Consumable, 40, 200, Common
+Item_SausageSoup, Consumable, 30, 135, Common
+Item_Sawdust, Misc, 10, Common
+Item_ScubaTank, Misc, 1450, Epic
+Item_Seaweed, Consumable, 5, 30, Common
+Item_SheriffBadge, Misc, 1450, Epic
+Item_ShieldBelt, Gadget, 100, Epic
+Item_Shoe, Armor, 380, Uncommon
+Item_Shovel, Gadget, 100, Epic
+Item_ShrewEye, Misc, 40, Common
+Item_ShrewFlesh, Misc, 70, Common
+Item_ShrewSkin, Misc, 20, Common
+Item_ShrinkRay, Gadget, 100, Epic
+Item_Shurikens, Gadget, 100, Epic
+Item_Silltalrik, Consumable, 20, 90, Common
+Item_SkiGoggles, Armor, 200, Common
+Item_SmokeGrenade, Gadget, 100, Epic
+Item_Snail, Misc, 20, Common
+Item_Sneaker, Armor, 380, Common
+Item_Snus, Consumable, 180, Rare
+Item_Sock, Armor, 100, Common
+Item_Soda, Consumable, 30, Common
+Item_Solution, Consumable, 0, 40, Common
+Item_Spagetti, Consumable, 0, 30, Common
+Item_SpanishOmelette, Consumable, 30, 220, Common
+Item_SpiceMix, Misc, 30, Common
+Item_Spleen, Misc, 40, Common
+Item_SportsDrink, Consumable, 120, Common
+Item_SpringCoilBoots, Armor, 1000, Rare
+Item_SquareGlasses, Armor, 300, Common
+Item_SteelHelmet, Armor, 2500, Common
+Item_Stew, Consumable, 20, 65, Common
+Item_Stick, Misc, 4, Common
+Item_Stout, Consumable, 15, 40, Common
+Item_StraightJacket, Armor, 250, Rare
+Item_Sugar, Consumable, 10, 30, Common
+Item_Suitcase, Misc, 10, Epic
+Item_SulfurCap, Armor, 300, Common
+Item_SulfurHoodie, Armor, 1000, Rare
+Item_Sunglasses, Armor, 460, Common
+Item_Surstromming, Consumable, 0, 350, Common
+Item_SuspensorShield, Gadget, 100, Epic
+Item_Svinto, Misc, 90, Common
+Item_SwedishPancakes, Consumable, 30, 220, Common
+Item_SwingDing, Consumable, 5, 10, Common
+Item_SylvesterHat, Armor, 200, Common
+Item_TankerHelmet, Armor, 1000, Common
+Item_Thyroid, Misc, 70, Common
+Item_TitaniumHelmet, Armor, 3400, Common
+Item_Toaster, Gadget, 100, Epic
+Item_ToastSkagen, Consumable, 15, 150, Common
+Item_Tongue, Misc, 100, Common
+Item_TongueOnStick, Consumable, 20, 120, Common
+Item_Tracksuit, Armor, 800, Rare
+Item_TrappedAngel, Gadget, 100, Epic
+Item_Tunic, Armor, 500, Common
+Item_TurtleShell, Armor, 1500, Rare
+Item_Unagi, Consumable, 60, 400, Common
+Item_UsedRubber, Misc, 150, Common
+Item_VacuumCleaner, Consumable, 15, 40, Common
+Item_VampireHeart, Gadget, 100, Epic
+Item_VelvetBell, Consumable, 1, 10, Common
+Item_Vibraport, Gadget, 100, Epic
+Item_VoodooDoll, Gadget, 100, Epic
+Item_Walnut, Consumable, 5, 40, Common
+Item_Wardrobe, Misc, 20, Legendary
+Item_WeaponRack0, Misc, 30, Epic
+Item_WeaponRack1, Misc, 30, Epic
+Item_WeaponRepairKit, Misc, 3000, Uncommon
+Item_WetWipes, Misc, 100, Common
+Item_Wine, Consumable, 30, 200, Common
+Item_WinterScarf, Armor, 900, Common
+Item_WoodenArmor, Armor, 950, Rare
+Item_WoodenCross, Gadget, 100, Uncommon
+Item_Worm, Consumable, 5, 10, Common
+Item_YaketySax, Misc, 1200, Epic
+Item_Ygg, Armor, 430, Uncommon
+Manual_BlackGuildCooking, Consumable, 15000, Rare
+Manual_ChequeredCookbook, Consumable, 30000, Legendary
+Manual_CookingCastle, Consumable, 20000, Rare
+Manual_CookingDungeon, Consumable, 15000, Rare
+Manual_CookingFortress, Consumable, 15000, Rare
+Manual_CookingSewers, Consumable, 15000, Rare
+Manual_DesertCooking, Consumable, 15000, Epic
+Manual_ForestCooking, Consumable, 15000, Rare
+Manual_GoblinCooking, Consumable, 10000, Rare
+Manual_Recipe_Aspic 1, Consumable, 20, Common
+Manual_Recipe_BananaSulfs, Consumable, 20, Common
+Manual_Recipe_BarkBread, Consumable, 20, Common
+Manual_Recipe_BeefJerky_5 3, Consumable, 20, Common
+Manual_Recipe_Broth_1, Consumable, 20, Common
+Manual_Recipe_Broth_3, Consumable, 20, Common
+Manual_Recipe_Butter_1, Consumable, 20, Common
+Manual_Recipe_Butter_2, Consumable, 20, Common
+Manual_Recipe_Cheese 9, Consumable, 20, Common
+Manual_Recipe_Cheeseburger_1 2, Consumable, 20, Common
+Manual_Recipe_CheeseburgerDouble_1 2, Consumable, 20, Common
+Manual_Recipe_CheeseTops_1, Consumable, 20, Common
+Manual_Recipe_ChickenNuggets, Consumable, 20, Common
+Manual_Recipe_ChocolateBall_1, Consumable, 20, Common
+Manual_Recipe_ChocolateSyrup_1, Consumable, 20, Common
+Manual_Recipe_CordonBleu, Consumable, 20, Common
+Manual_Recipe_CuissesDeGrenouille_1, Consumable, 20, Common
+Manual_Recipe_CurryWurst 4, Consumable, 20, Common
+Manual_Recipe_Dammsugare, Consumable, 20, Common
+Manual_Recipe_Dimmies, Consumable, 20, Common
+Manual_Recipe_EggToddy_1, Consumable, 20, Common
+Manual_Recipe_Escargot_1, Consumable, 20, Common
+Manual_Recipe_ExtraLung_1, Consumable, 20, Common
+Manual_Recipe_ExtraLung_2, Consumable, 20, Common
+Manual_Recipe_FishnChips 1, Consumable, 20, Common
+Manual_Recipe_Fondue_1, Consumable, 20, Common
+Manual_Recipe_FrenchHotdog_2, Consumable, 20, Common
+Manual_Recipe_FrenchToast_1, Consumable, 20, Common
+Manual_Recipe_FullEnglishBreakfast_1 1, Consumable, 20, Common
+Manual_Recipe_FullEnglishBreakfast_1 2, Consumable, 20, Common
+Manual_Recipe_Gonster, Consumable, 20, Common
+Manual_Recipe_GreenGlob, Consumable, 20, Common
+Manual_Recipe_GreenGlob_1, Consumable, 20, Common
+Manual_Recipe_Gum_2, Consumable, 20, Common
+Manual_Recipe_Gum_3, Consumable, 20, Common
+Manual_Recipe_HardBread_1, Consumable, 20, Common
+Manual_Recipe_HolyToast_1, Consumable, 20, Common
+Manual_Recipe_Hotpot, Consumable, 20, Common
+Manual_Recipe_Hotpot 2, Consumable, 20, Common
+Manual_Recipe_Hotpot 3, Consumable, 20, Common
+Manual_Recipe_Hotpot 4, Consumable, 20, Common
+Manual_Recipe_Jam_1, Consumable, 20, Common
+Manual_Recipe_Jello 1, Consumable, 20, Common
+Manual_Recipe_KidneyPie_1, Consumable, 20, Common
+Manual_Recipe_KidneyStone_1, Consumable, 20, Common
+Manual_Recipe_KidneyStone_2, Consumable, 20, Common
+Manual_Recipe_Leverpastej_1, Consumable, 20, Common
+Manual_Recipe_Leverpastejsmacka 1, Consumable, 20, Common
+Manual_Recipe_MacNCheese 2, Consumable, 20, Common
+Manual_Recipe_Maki_1, Consumable, 20, Common
+Manual_Recipe_Marshmellow 4, Consumable, 20, Common
+Manual_Recipe_MashedPotatoes_1, Consumable, 20, Common
+Manual_Recipe_Mochi_1, Consumable, 20, Common
+Manual_Recipe_Mudcake_1, Consumable, 20, Common
+Manual_Recipe_MushroomOmelette_2, Consumable, 20, Common
+Manual_Recipe_MushroomsFried_1, Consumable, 20, Common
+Manual_Recipe_MushroomsFriedSimple 1, Consumable, 20, Common
+Manual_Recipe_MushroomSoup_1 1, Consumable, 20, Common
+Manual_Recipe_MushroomSoup_4, Consumable, 20, Common
+Manual_Recipe_MushroomSoupBroth_6, Consumable, 20, Common
+Manual_Recipe_MushroomsSkewer_2, Consumable, 20, Common
+Manual_Recipe_MysteryMeat_2 2, Consumable, 20, Common
+Manual_Recipe_MysteryMeat_2 3, Consumable, 20, Common
+Manual_Recipe_NashvilleHotChicken 3, Consumable, 20, Common
+Manual_Recipe_Nigiri_1, Consumable, 20, Common
+Manual_Recipe_Omelette_1, Consumable, 20, Common
+Manual_Recipe_OmeletteButter, Consumable, 20, Common
+Manual_Recipe_OmeletteCheese_1, Consumable, 20, Common
+Manual_Recipe_OnigiriFlesh_1, Consumable, 20, Common
+Manual_Recipe_PeanutButter_2 1, Consumable, 20, Common
+Manual_Recipe_Polsa_1, Consumable, 20, Common
+Manual_Recipe_Polsa_10, Consumable, 20, Common
+Manual_Recipe_Porridge_1, Consumable, 20, Common
+Manual_Recipe_Poutine, Consumable, 20, Common
+Manual_Recipe_Ramen_2, Consumable, 20, Common
+Manual_Recipe_Raqlette, Consumable, 20, Common
+Manual_Recipe_RhubarbPie_1, Consumable, 20, Common
+Manual_Recipe_RhubarbPorridge_1, Consumable, 20, Common
+Manual_Recipe_RiceCakes_2, Consumable, 20, Common
+Manual_Recipe_Sandwich_1, Consumable, 20, Common
+Manual_Recipe_Sashimi_1, Consumable, 20, Common
+Manual_Recipe_SashimiSandFish_1, Consumable, 20, Common
+Manual_Recipe_Sausage 3, Consumable, 20, Common
+Manual_Recipe_Sausage 4, Consumable, 20, Common
+Manual_Recipe_Sausage 7, Consumable, 20, Common
+Manual_Recipe_SausageOnStick 1, Consumable, 20, Common
+Manual_RobotCooking, Consumable, 30000, Epic
+ValuableCarStereo, Misc, 1600, Common
+ValuableCrawGuano, Misc, 1600, Common
+ValuableDiamondRing, Misc, 6000, Common
+ValuableDriversLicense, Misc, 1000, Common
+ValuableDVDPlayer, Misc, 2400, Common
+ValuableFamousPainting, Misc, 16000, Common
+ValuableFancyWatch, Misc, 6000, Common
+ValuableFineChina, Misc, 3500, Common
+ValuableFlatscreenTV, Misc, 14000, Common
+ValuableGamingLaptop, Misc, 4000, Common
+ValuableGoldChain, Misc, 2300, Common
+ValuableGoldenFigurine, Misc, 5000, Common
+ValuableGoldenTicket, Misc, 10000, Common
+ValuableMinidisc, Misc, 1500, Common
+ValuableMP3Player, Misc, 1100, Common
+ValuableOldVintage, Misc, 3800, Common
+ValuableOrnamentalVase, Misc, 4000, Common
+ValuablePokerChips, Misc, 800, Common
+ValuableQuaintLittleSpoon, Misc, 800, Common
+ValuableShavwaSoap, Misc, 1000, Common
+ValuableSmartphone, Misc, 2000, Common
+ValuableSoulResin, Misc, 900, Common
+ValuableTheCost, Misc, 800, Common
+Weapon_Arbiter2, Weapon, 600, Common
+Weapon_Arbiter2NotUse, Weapon, 600, Common
+Weapon_Augusta, Weapon, 3000, Rare
+Weapon_Balthazar, Weapon, 3200, Epic
+Weapon_Beck, Weapon, 1800, Uncommon
+Weapon_Bo, Weapon, 4000, Common
+Weapon_Breacher8, Weapon, 1900, Rare
+Weapon_Bronco, Weapon, 1500, Uncommon
+Weapon_BurnerPhone, Gadget, 200, Uncommon
+Weapon_Catacoil, Weapon, 8000, Epic
+Weapon_Corpsemaker, Weapon, 4000, Rare
+Weapon_CryoGrenade, Gadget, 150, Common
+Weapon_D4RT, Weapon, 3200, Epic
+Weapon_DeathStar, Weapon, 3200, Epic
+Weapon_Dirk, Weapon, 1, Common
+Weapon_Dolphin99, Weapon, 3200, Uncommon
+Weapon_Drifter9, Weapon, 500, Common
+Weapon_Duhar, Weapon, 8000, Rare
+Weapon_Dynamite, Gadget, 200, Uncommon
+Weapon_Farsight, Weapon, 5500, Epic
+Weapon_Ferryman, Weapon, 9000, Rare
+Weapon_FlickerZip, Weapon, 2000, Rare
+Weapon_Flock, Weapon, 3500, Rare
+Weapon_Gravekeeper, Weapon, 1000, Common
+Weapon_ImpalaGravita, Weapon, 3200, Rare
+Weapon_JarOfLove, Gadget, 100, Common
+Weapon_Katana, Weapon, 4200, Common
+Weapon_Knop, Weapon, 1500, Common
+Weapon_M11Ramshack, Weapon, 7700, Epic
+Weapon_Majordome, Weapon, 8000, Rare
+Weapon_Mario, Weapon, 1200, Common
+Weapon_MolotovCocktail, Gadget, 100, Common
+Weapon_Mossman, Weapon, 1500, Uncommon
+Weapon_NeuraxisF22, Weapon, 5000, Legendary
+Weapon_Nunchaku, Weapon, 3500, Common
+Weapon_PalehorseTopclipper, Weapon, 3000, Epic
+Weapon_PierreFusil, Weapon, 5000, Uncommon
+Weapon_PineappleGrenade, Gadget, 200, Common
+Weapon_PloikaC, Weapon, 910, Common
+Weapon_PoisonGrenade, Gadget, 100, Common
+Weapon_ProximityMine, Gadget, 400, Rare
+Weapon_RamshackOld_NOT_USED, Weapon, 1000, Common
+Weapon_Rektor, Weapon, 8000, Legendary
+Weapon_Rokua, Weapon, 7000, Legendary
+Weapon_Sai, Weapon, 3800, Common
+Weapon_Salamander, Weapon, 5000, Rare
+Weapon_Snowball, Gadget, 50, Common
+Weapon_Snut38, Weapon, 500, Common
+Weapon_Socom9, Weapon, 1900, Rare
+Weapon_StarAndWitness, Weapon, 2500, Rare
+Weapon_StickGrenade, Gadget, 200, Common
+Weapon_SulfurGrenade, Gadget, 50, Common
+Weapon_TailorMarksman, Weapon, 3500, Uncommon
+Weapon_Termite, Weapon, 1400, Uncommon
+Weapon_ThrowingKnives, Gadget, 50, Common
+Weapon_Typhoon, Weapon, 5000, Epic
+Weapon_Unknown, Weapon, 2400, Rare
+Weapon_Valet, Weapon, 4800, Rare
+Weapon_Vrede, Weapon, 3000, Rare
+Weapon_Wakizashi, Weapon, 1, Common
+Weapon_WyattPulsar, Weapon, 2000, Rare
+Weapon_WyattPulsarNotUse, Weapon, 2000, Rare
+Stamp, Consumable, 100, Common
+Item_BaptismalFont, Misc, 10, Legendary
+Item_BulkAmmoBox, Misc, 10, Legendary
+Item_Chrismatory, Misc, 30, Legendary
+Item_GunCabinet, Misc, 25, Legendary
+Item_SnakeBasket, Misc, 10, Legendary
+Weapon_Longboy, Weapon, 9000, Uncommon
+Item_Toiletpaper, Misc, 100, Common
+Item_Toilet, Misc, 18, Legendary
+Item_Painting1, Misc, 5, Legendary
+Item_Painting2, Misc, 5, Legendary
+Item_Painting3, Misc, 5, Legendary
+Item_Painting4, Misc, 5, Legendary
+Item_HolorealityProjector, Misc, 50, Legendary
+Item_ChristmatoryRefresh, Misc, 32000, Legendary
+Item_DeliveryDemonRefresh, Misc, 32000, Legendary
+Item_DeliveryDemon, Misc, 35, Legendary
+Weapon_HellnBack, Weapon, 3000, Rare
+Weapon_Wingman, Weapon, 6000, Rare
+Item_AddBanish, Consumable, 2, Legendary
+Item_AddChoiceDraw, Consumable, 20, Legendary
+Item_AddReroll, Consumable, 5, Legendary
+Weapon_Warpig, Weapon, 7000, Epic
+Weapon_Cavalier, Weapon, 4000, Uncommon
+Currency_SulfGrand, Consumable, 1000, Common
+Weapon_Chat-Pardeur98, Weapon, 3500, Epic
+Weapon_Songbird, Weapon, 6500, Common
+Weapon_SocomACR, Weapon, 3500, Common
+Item_SulfCola, Consumable, 30, 300, Common
+Item_Pilk, Consumable, 60, 400, Common
+Item_Coffin, Misc, 20, Legendary
+Item_WallMount0, Misc, 10, Legendary
+Item_WallMount1, Misc, 10, Legendary
+Item_WallMount2, Misc, 10, Legendary
+Attachment_LaserSightBone, Attachment, 500, Uncommon
+Attachment_LaserSightDenimBlue, Attachment, 500, Uncommon
+Attachment_LaserSightLightBlue, Attachment, 500, Uncommon
+Attachment_LaserSightLime, Attachment, 500, Uncommon
+Attachment_LaserSightMagenta, Attachment, 500, Uncommon
+Attachment_LaserSightOrange, Attachment, 500, Uncommon
+Attachment_LaserSightPurple, Attachment, 500, Uncommon
+Attachment_LaserSightRosePink, Attachment, 500, Uncommon
+Attachment_LaserSightTangerine, Attachment, 500, Uncommon
+Attachment_LaserSightTeal, Attachment, 500, Uncommon
+Attachment_LaserSightPoop, Attachment, 500, Uncommon
+Attachment_LaserSightGold, Attachment, 10000, Uncommon
+Weapon_TerrierURB, Weapon, 3000, Common
+Weapon_Blackwater, Weapon, 3200, Epic
+Weapon_ChimeraRapid, Weapon, 4000, Rare
+Weapon_CYB47, Weapon, 2400, Rare
+Weapon_DeathsToll, Weapon, 3200, Epic
+Weapon_MoneyStack, Gadget, 200, Uncommon
